@@ -15,3 +15,66 @@ h2 {
    font-size: 24px;
     line-height: 30px; 
 }
+
+.container {
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+header {
+    background-color: rgba(0, 120, 201, 0.7); 
+}
+
+main {
+    background-color: rgba(12, 15, 50, 0.8); 
+}
+
+footer {
+    background-color: rgba(10, 120, 6, 0.3);
+}
+
+.main-navigation {
+    width: 780px;
+    background-color: rgba(110, 10, 60, 0.3);
+    float:left;
+}
+
+.user-block {
+    width: 140px;
+    background-color: rgba(120, 110, 90, 0.4);
+    float:right;
+}
+
+.clearfix:after {
+    content:"";
+    display:table;
+    clear:both;
+}
+
+.main-header {
+    margin-bottom: 60px;
+}
+
+.index-logo {
+    width: 368px;
+    height: 204px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 30px;
+}
+
+section.features{
+    background-color: rgba(7, 77, 77, 0.4);
+}
+
+.features .features-item {
+    background-color: rgba(120, 6, 11, 0.3);
+    float:left;
+    width:300px;
+    margin-right:20px;
+}
+
+.features .features-item:last-child {
+    margin-right:0px;
+}
