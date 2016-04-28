@@ -19,7 +19,7 @@ h2 {
 .container {
     width: 940px;
     margin: 0 auto;
-    padding: 0 10px;
+    padding: 0px 10px;
 }
 
 header {
@@ -30,8 +30,11 @@ main {
     background-color: rgba(12, 15, 50, 0.8); 
 }
 
-footer {
-    background-color: rgba(10, 120, 6, 0.3);
+.header-logo {
+    float: left;
+    width: 140px;
+    background-color: rgba(36%, 78%, 68%, 0.3);
+    margin-right: 20px;
 }
 
 .main-navigation {
@@ -40,13 +43,17 @@ footer {
     float:left;
 }
 
+nav.wide {
+    width: 620px;
+}
+
 .user-block {
     width: 140px;
     background-color: rgba(120, 110, 90, 0.4);
     float:right;
 }
 
-.clearfix:after {
+.clearfix::after {
     content:"";
     display:table;
     clear:both;
@@ -66,6 +73,7 @@ footer {
 
 section.features{
     background-color: rgba(7, 77, 77, 0.4);
+    margin-bottom: 80px;
 }
 
 .features .features-item {
@@ -77,4 +85,120 @@ section.features{
 
 .features .features-item:last-child {
     margin-right:0px;
+}
+
+.index-content {
+    background-color: rgba(87, 10, 125, 0.3);
+    padding: 50px 80px;
+    margin-bottom: 35px;
+}
+
+.index-content-left {
+    background-color: rgba(70%, 85%, 15%, 0.3);
+    float:left;
+    width: 380px;
+}
+
+.index-content-right {
+    background-color: rgba(80%, 52%, 83%, 0.3);
+    float: right;
+    width: 300px;
+    
+}
+
+/* Стили для содержания страницы catalog*/
+
+.container h1 {
+    background-color:aqua;
+    width: 300px;
+}
+
+.breadcrumbs {
+    background-color: cadetblue;
+    margin-top: 25px;
+    margin-bottom: 55px;
+    width: 320px;
+}
+
+aside {
+    float: left;
+    width: 220px;
+    background-color:bisque;
+    min-height: 530px;
+}
+
+ul.producers {
+    margin-bottom: 50px;
+}
+
+.shop-items-menu {
+    width: 700px;
+    margin-left:220px;
+    background-color: firebrick;
+    min-height: 700px;
+    padding-left:20px;
+}
+
+.catalog {
+    width: 700px;
+    background-color: chocolate;
+    min-height: 595px;
+}
+
+.catalog article {
+    min-height: 285px;
+    background-color: chartreuse;
+    float: left;
+    width: 220px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.catalog article:nth-child(3n) {
+    margin-right: 0px;
+}
+
+.pagination {
+    background-color: darkmagenta;
+    width: 220px;
+    margin-top: 45px;
+    height: 43px;
+}
+
+.pagination a {
+    display:inline-block;
+    width: 43px;
+    height: 43px;
+    margin-right: 7px;
+    background-color:aquamarine;
+}
+
+/* Стили для подвала */
+footer {
+    background-color: rgba(10, 120, 6, 0.3);
+    margin-top: 65px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.footer-contacts {
+    float: left;
+    width: 320px;
+    margin-right: 60px;
+    min-height: 80px;
+    background-color: azure;
+}
+
+.footer-social {
+    float: left;
+    width: 180px;
+    min-height: 80px;
+    background-color: forestgreen;
+}
+
+.footer-copyright {
+    float: right;
+    width: 160px;
+    min-height: 80px;
+    background-color: darkturquoise;
 }
