@@ -146,7 +146,7 @@ ul.producers {
 }
 
 .catalog article {
-    min-height: 285px;
+    height: 285px;
     background-color: chartreuse;
     float: left;
     width: 220px;
@@ -167,7 +167,6 @@ ul.producers {
 
 .pagination a {
     display:inline-block;
-    width: 43px;
     height: 43px;
     margin-right: 7px;
     background-color:aquamarine;
